@@ -1,0 +1,84 @@
+/* Popup.css */
+#title {
+    font-size: 14px;
+    color: #3b3e41;
+    text-align: center;
+}
+
+#date {
+    font-weight: 500;
+    font-size: 10;
+}
+
+p {
+    font-size: 15px;
+    color: #3b3e41;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wordContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+    width: fit-content;
+}
+
+#chosen-word {
+    font-size: 30px;
+    color: #3b3e41;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+#definition-area {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#defin {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    color: #3b3e41;
+    /* old IE */
+    background-color: #3b3e41;
+    /* Modern Browsers */
+}
+
+.speaker-icon {
+    border-radius: 50%;
+    background-color: bisque;
+    border: none;
+    color: #fb4927;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 0px 0px 6px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.speaker-icon:hover {
+    background-color: #fb4927;
+    color: white;
+}
+
+.footer {
+    color: #3b3e41;
+    text-align: center;
+    padding: 10px;
+}
