@@ -34,7 +34,7 @@ function Popup() {
     return (
         <div>
             <h1 id="title">Computer Science Word of the Day <br></br> <span id="date">{date}</span></h1>
-            <hr width="150"></hr>
+            <hr width="120"></hr>
             <div id="container">
                 <div id="wordContainer">
                     <p id="chosen-word">{word}</p>
@@ -44,7 +44,7 @@ function Popup() {
                 </div>
             </div>
 
-            <hr width="70%"></hr>
+            <hr width="80%"></hr>
             <div id="definition-area">
                 <p>Definition:</p>
                 <p id="defin">{definition}</p>
